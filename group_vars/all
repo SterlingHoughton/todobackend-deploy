@@ -1,0 +1,10 @@
+---
+vpc_id: vpc-6c36440b
+subnet_id: subnet-436ee524
+ec2_keypair: DockerAnsible
+instance_count: 2
+db_subnets:
+  - subnet-436ee524
+  - subnet-bd60cdf4
+db_availability_zone: us-west-2a
+db_username: todobackend
